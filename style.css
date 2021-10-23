@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  border-top: 10px solid #1a3743;
+  background-color: #f3f3ee;
+  font-family: "ff-meta-serif-web-pro", Georgia, serif;
+  color: #1b1b1b;
+}
+
+nav {
+  margin: 0 auto;
+  width: 1232px;
+  height: 140px;
+  padding: 15px 0px 10px;
+}
+
+.logoBox {
+  margin-top: 25px;
+}
+
+.logo-item-link {
+  color: #1a3743;
+  font-size: 29.92px;
+  font-family: "pt-sans", sans-serif;
+}
+
+.logo-item-link:hover {
+  color: #21718d;
+}
+
+.logo-sub {
+  color: #7ea684;
+  font-size: 14.18px;
+  font-style: italic;
+  display: block;
+}
+
+.menuSection {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #d8dac9;
+  margin-top: 40px;
+}
+
+.menuBox {
+  font-family: "pt-sans", sans-serif;
+  display: inline-block;
+  border-width: 0px 2px 0px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #d8dac9, rgba(255, 255, 255, 0)) 1
+    100%;
+}
+
+.menuBox li {
+  width: 87px;
+  height: 47px;
+  line-height: 47px;
+  display: inline-block;
+  text-align: center;
+  border-width: 0px 0px 0px 2px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #d8dac9, rgba(255, 255, 255, 0)) 1
+    100%;
+  color: #21718d;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.menuBox2 {
+  font-family: "pt-sans", sans-serif;
+  display: inline-block;
+  border-width: 0px 2px 0px 0px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #d8dac9, rgba(255, 255, 255, 0)) 1
+    100%;
+}
+
+.menuBox2 li {
+  width: 40px;
+  height: 47px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-width: 0px 0px 0px 2px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #d8dac9, rgba(255, 255, 255, 0)) 1
+    100%;
+  color: #21718d;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.menuBox li:hover {
+  color: #1a3743;
+  cursor: pointer;
+}
+
+@media all and (max-width: 720px) {
+  .logoBox {
+    margin-left: 50px;
+  }
+
+  .menuSection {
+    border-top: none;
+  }
+
+  .menuSection2 {
+    border-top: 2px solid #d8dac9;
+    margin-left: 50px;
+  }
+  .menuBox .home {
+    display: none;
+  }
+
+  .menuBox li {
+    width: 150px;
+  }
+
+  .menuBox2 {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 580px;
+    border: none;
+    border-image: none;
+  }
+
+  .menuBox2 li {
+    border: none;
+    border-image: none;
+  }
+}
